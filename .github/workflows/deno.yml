@@ -24,7 +24,7 @@ jobs:
 
       - name: Setup Deno
         # uses: denoland/setup-deno@v1
-        uses: denoland/ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDyvGKR7ASDAzIx64xcy5BCIARwznbvv/r5/hnqB5z48xqQh5wC0v8Be3tbEhiE6hF07IcyRxQA8Ft6hqzbLItajDd6vfOuXG/lhJ3iw/WJhBmTR0/OylCgGdREtpENG1L+U0QBdPdHRI8hJPrr/c6cHJNn6hhJzPnrZCHVJjEVueHO8EL86Py2SM7JwUVtyB52evWK30neFD12TnwlNapbvSg/0ha9ymVrGObwZJIPR1BRJK7tLK6DEJZPyuKAV8kxhtp3GqeICN+AlySYkzn6Z2tjT8iMb1cH3+QpPeFtZDZPb9YlSErinlYpCzwhIPHWZKzI97WxZlTU3pPcTQ3 bot_533626@bots.business
+        uses: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDyvGKR7ASDAzIx64xcy5BCIARwznbvv/r5/hnqB5z48xqQh5wC0v8Be3tbEhiE6hF07IcyRxQA8Ft6hqzbLItajDd6vfOuXG/lhJ3iw/WJhBmTR0/OylCgGdREtpENG1L+U0QBdPdHRI8hJPrr/c6cHJNn6hhJzPnrZCHVJjEVueHO8EL86Py2SM7JwUVtyB52evWK30neFD12TnwlNapbvSg/0ha9ymVrGObwZJIPR1BRJK7tLK6DEJZPyuKAV8kxhtp3GqeICN+AlySYkzn6Z2tjT8iMb1cH3+QpPeFtZDZPb9YlSErinlYpCzwhIPHWZKzI97WxZlTU3pPcTQ3 bot_533626@bots.business
         with:
           deno-version: v1.x
 
